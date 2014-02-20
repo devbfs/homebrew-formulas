@@ -19,7 +19,7 @@ class Tools < Formula
     puts " ...done"
   end
 
-  def remove
+  def uninstall
     puts "removing tools..."
 
     # system "rm -rf #{installpath}"
