@@ -3,7 +3,7 @@ require "formula"
 class Tools < Formula
   homepage "http://brew.backflipstudios.com/brew"
   url "http://brew.backflipstudios.com/brew/tools-1.0.tar.gz"
-  sha1 "af2ddc319e7779a043b9382ec40cff502d6e2880"
+  sha1 "81f4080a7ab4e63420b8f41f9734cc6d6404dad4"
 
   # @installpath = "/usr/local/bfs/util/tools"
 
