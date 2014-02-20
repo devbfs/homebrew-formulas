@@ -5,7 +5,7 @@ class Tools < Formula
   url "http://brew.backflipstudios.com/brew/tools-1.0.tar.gz"
   sha1 "af2ddc319e7779a043b9382ec40cff502d6e2880"
 
-  # @installpath = "~/bfs/util/tools"
+  # @installpath = "/usr/local/bfs/util/tools"
 
   def install
     puts "installing tools..."
@@ -13,8 +13,8 @@ class Tools < Formula
     # system "mkdir #{installpath}"
     # system "cp artifacts.py #{installpath}"
 
-    system "mkdir -p ~/bfs/util/tools"
-    system "cp -rf * ~/bfs/util/tools"
+    system "mkdir -p /usr/local/bfs/util/tools"
+    system "cp -rf * /usr/local/bfs/util/tools"
 
     puts " ...done"
   end
@@ -23,7 +23,7 @@ class Tools < Formula
     puts "removing tools..."
 
     # system "rm -rf #{installpath}"
-    system "rm -rf ~/bfs/util/tools"
+    system "rm -rf /usr/local/bfs/util/tools"
 
     puts " ...done"
   end

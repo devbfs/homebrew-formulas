@@ -7,14 +7,14 @@ class Panda < Formula
 
   def install
       puts "installing panda..."
-      system "mkdir -p ~/bfs/util/panda"
-      system "cp -rf * ~/bfs/util/panda"
+      system "mkdir -p /usr/local/bfs/util/panda"
+      system "cp -rf * /usr/local/bfs/util/panda"
       puts " ...done"
   end
 
   def remove
       puts "removing panda..."
-      system "rm -rf ~/bfs/util/panda"
+      system "rm -rf /usr/local/bfs/util/panda"
       puts " ...done"
   end
 end
