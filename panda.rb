@@ -6,9 +6,15 @@ class Panda < Formula
   sha1 "49e1117f6eb6f17db3bec2406db2a40de9f178ab"
 
   def install
-        puts "installing panda..."
-        system "mkdir -p ~/bfs/util/panda"
-        system "cp * ~/bfs/util/panda"
-        puts " ...done"
+      puts "installing panda..."
+      system "mkdir -p ~/bfs/util/panda"
+      system "cp -rf * ~/bfs/util/panda"
+      puts " ...done"
+  end
+
+  def remove
+      puts "removing panda..."
+      system "rm -rf ~/bfs/util/panda"
+      puts " ...done"
   end
 end
