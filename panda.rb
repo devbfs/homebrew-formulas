@@ -6,10 +6,9 @@ class Panda < Formula
   sha1 "49e1117f6eb6f17db3bec2406db2a40de9f178ab"
 
   def install
-        system "pwd"
         puts "installing panda..."
-        system "mkdir -p ~/Documents/pandatest"
-        system "tar -xzvf panda-1.0.tar.gz ~/Documents/pandatest"
+        system "mkdir -p ~/bfs/util/panda"
+        system "cp * ~/bfs/util/panda"
         puts " ...done"
   end
 end
