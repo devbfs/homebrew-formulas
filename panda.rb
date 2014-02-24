@@ -12,7 +12,7 @@ class Panda < Formula
       puts " ...done"
   end
 
-  def remove
+  def uninstall
       puts "removing panda..."
       system "rm -rf /usr/local/bfs/util/panda"
       puts " ...done"
