@@ -3,7 +3,7 @@ require 'formula'
 class AndroidNdkR9c < Formula
   homepage 'http://developer.android.com/sdk/ndk/index.html'
   url 'http://brew.backflipstudios.com/brew/android-ndk-r9c.tar.gz'
-  version 'r9c'
+  version '1.0'
   sha1 '6a49b271b661fbf84ab5d12df49adf0530779153'
 
   depends_on 'android-sdk'
