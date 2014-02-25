@@ -4,7 +4,7 @@ class AndroidNdkR9c < Formula
   homepage 'http://developer.android.com/sdk/ndk/index.html'
   url 'http://brew.backflipstudios.com/brew/android-ndk-r9c.tar.gz'
   version 'r9c'
-  sha1 'ef106c9b0e1cce0bb0da25108b870ace02c39bcf'
+  sha1 '6a49b271b661fbf84ab5d12df49adf0530779153'
 
   depends_on 'android-sdk'
 
