@@ -6,7 +6,6 @@ class Box2d212 < Formula
   sha1 '519e9a5f7c9775158a1d9ae0fff2f4e8da319c30'
 
   def install
-    print Dir.pwd
-    system 'sh config.sh'
+    print 'installing...'
   end
 end
