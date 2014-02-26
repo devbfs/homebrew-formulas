@@ -6,7 +6,7 @@ class Cg31 < Formula
   sha1 'ab0f9b2aeb8254ee74ef6a3d25a24b3f9eb6249a'
 
   def install
-    prefix.install_symlink Dir["#{opt_prefix}"]
+    prefix.install_symlink Dir["#{prefix}"]
     prefix.install Dir['*']
   end
 end
