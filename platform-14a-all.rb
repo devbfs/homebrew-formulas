@@ -8,4 +8,8 @@ class Platform14aAll < Formula
   def install
     prefix.install Dir['*']
   end
+
+  def post_uninstall
+    puts "testing post_uninstall function..."
+  end
 end
