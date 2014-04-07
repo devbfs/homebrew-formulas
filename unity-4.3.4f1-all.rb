@@ -7,6 +7,12 @@ class Unity434f1All < Formula
 
   def install
     prefix.install Dir['*']
-    system 'ln -s ' + prefix + '/Applications/Unity'
+    print 'creating /Applications symlink for Unity'
+    system 'ln -s ' + prefix + ' /Applications/Unity'
+  end
+
+  def post_uninstall
+    print 'removing /Applications symlink for Unity'
+    system 'rm /Applications/Unity'   # will work as long as /Applications is just a symlink to a homebrew-installed Unity keg. will fail if it's a directory
   end
 end
