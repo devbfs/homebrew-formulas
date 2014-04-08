@@ -3,7 +3,7 @@ require 'formula'
 class Platform23All < Formula
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/platform-23-all.tar.gz'
-  sha1 '29d22cf67c5dff5a698350240835f864f3d8541d'
+  sha1 '3f43ad867c6452dd6d1cbba4c2918c89446a7080'
 
   depends_on 'boost-1.54.0-all'
   depends_on 'hockeyapp-3.5.4-ios'
