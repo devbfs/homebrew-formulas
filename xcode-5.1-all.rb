@@ -7,13 +7,6 @@ class Xcode51All < Formula
 
   def install
     prefix.install Dir['*']
-    print 'creating /Applications symlink for Xcode'
-    system 'ln -s ' + prefix + ' /Applications/Xcode.app'
-  end
-
-  # FIXME: this function never gets called for some reason
-  def post_uninstall
-    print 'removing /Applications symlink for Xcode'
-    system 'rm /Applications/Xcode.app'   # will work as long as /Applications is just a symlink to a homebrew-installed Xcode keg. will fail if it's a directory (Xcode installed from the app store)
+    print 'You will need to manually create a symlink fgor this keg since modifying /Applications requires root permissions.'
   end
 end
