@@ -18,6 +18,7 @@ class Platform23All < Formula
   depends_on 'jsoncpp-0.5.0-all'
   depends_on 'flurry-4.3.2-ios'
   depends_on 'flurry-3.0.5-android'
+  depends_on 'sbjson-3.0.4-all'
 
   def install
     prefix.install Dir['*']
