@@ -3,7 +3,7 @@ require 'formula'
 class Hasoffers306Ios < Formula
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/hasoffers-3.0.6-ios.tar.gz'
-  sha1 'a9f4930f89fc60e7810a1d73de0755fa0cfe37bd'
+  sha1 '95d54e7721ed5c7c3bed0dea92d274274046880a'
 
   def install
     prefix.install Dir['*']
