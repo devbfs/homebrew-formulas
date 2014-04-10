@@ -1,6 +1,6 @@
 require 'formula'
 
-class Pvrtextool209290678All < Formula
+class Pvrtextool209290678Mac < Formula
   keg_only 'This is an in-house keg. Anything that needs it should be able to find it automatically.'
 
   homepage 'http://brew.backflipstudios.com'

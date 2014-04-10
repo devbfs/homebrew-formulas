@@ -1,6 +1,6 @@
 require 'formula'
 
-class Imagemagick680All < Formula
+class Imagemagick680Mac < Formula
   keg_only 'This is an in-house keg. Anything that needs it should be able to find it automatically.'
 
   homepage 'http://brew.backflipstudios.com'
