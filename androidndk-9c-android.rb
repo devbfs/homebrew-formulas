@@ -20,7 +20,7 @@ class Androidndk9cAndroid < Formula
     ndk_exec.chmod 0755
     %w[ndk-build ndk-gdb ndk-stack].each { |app| bin.install_symlink ndk_exec => app }
   end
-    
+
   def caveats; <<-EOS.undent
     We agreed to the Android NDK License Agreement for you by downloading the NDK.
     If this is unacceptable you should uninstall.
