@@ -7,7 +7,8 @@ class Xcode502Mac < Formula
 
   def install
     prefix.install Dir['*']
-    print 'You will need to manually create a symlink for this keg since modifying /Applications requires root permissions.\n'
-    print 'Assuming you do not have a regular (non-brew) installation of Xcode, use this command:\n\t ln -s -f /usr/local/Cellar/xcode-5.0.2-mac/5.0.2 /Applications/Xcode.app'
+    puts 'You will need to manually create a symlink for this keg since modifying /Applications requires root permissions.'
+    puts 'Assuming you do not have a regular (non-brew) installation of Xcode, use this command:'
+    puts 'ln -s -f /usr/local/Cellar/xcode-5.0.2-mac/5.0.2 /Applications/Xcode.app'
   end
 end
