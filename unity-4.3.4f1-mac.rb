@@ -1,6 +1,8 @@
 require 'formula'
 
 class Unity434f1Mac < Formula
+  keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
+
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/unity-4.3.4f1-mac.tar.gz'
   sha1 '8749b1ff9778a80e60edcf45897884f3a9697d47'

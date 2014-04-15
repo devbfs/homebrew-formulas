@@ -1,6 +1,8 @@
 require 'formula'
 
 class Xcode502Mac < Formula
+  keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
+
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/xcode-5.0.2-mac.tar.gz'
   sha1 'db2937748997812df9f824c16da96fd7f6e426aa'
