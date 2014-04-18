@@ -9,7 +9,7 @@ class Platform23All < Formula
   depends_on 'hockeyapp-3.5.4-ios'
   depends_on 'jansson-2.3.1House-all'
   depends_on 'facebook-3.5.1-ios'
-  depends_on 'facebook-4cbe4e2-android'
+  depends_on 'facebook-3.0.1-android'
   depends_on 'burstlyhouse-2.7.0.51093-ios'
   depends_on 'burstlyfull-2.7.0.51093-ios'
   depends_on 'burstly-1.9.2.144-android'
