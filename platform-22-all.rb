@@ -19,6 +19,7 @@ class Platform22All < Formula
   depends_on 'flurry-4.3.2-ios'
   depends_on 'flurry-3.0.5-android'
   depends_on 'mopub-1.15.2.2-android'
+  depends_on 'googleplay-3.2.25-android'
 
   def install
     prefix.install Dir['*']
