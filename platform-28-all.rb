@@ -21,6 +21,8 @@ class Platform28All < Formula
   depends_on 'sbjson-3.0.4-all'
   depends_on 'mopub-1.15.2.2-android'
   depends_on 'googleplay-3.2.25-android'
+  depends_on 'googleconversiontracking-3.0.0-ios'
+  depends_on 'googlemobileads-6.8.0-ios'
 
   def install
     prefix.install Dir['*']
