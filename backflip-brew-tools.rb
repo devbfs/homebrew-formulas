@@ -1,7 +1,9 @@
 require 'formula'
 
 class BackflipBrewTools < Formula
-  head 'https://github.com/devbfs/brew-util.git', :revision => "4a980495cd90c2e5e3f1d101f6045c9123e3dbf7"
+  url 'http://brew.backflipstudios.com/brew/backflip-brew-tools.tar.gz'
+  sha1 '461eb64bad07d6f062ebd16f98d962bd8300f750'
+  version '1'
 
   def install
     prefix.install Dir['*']
