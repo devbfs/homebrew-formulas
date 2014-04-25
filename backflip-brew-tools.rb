@@ -9,5 +9,6 @@ class BackflipBrewTools < Formula
 
   def install
     prefix.install Dir['*']
+    bin.install Dir['backflipbrew']
   end
 end
