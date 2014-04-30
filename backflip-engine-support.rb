@@ -2,7 +2,7 @@ require 'formula'
 
 class BackflipEngineSupport < Formula
   url 'http://brew.backflipstudios.com/brew/backflip-engine-support.tar.gz'
-  sha1 '4390b71156dd24d424bb142800c9fa2521b04f84'
+  sha1 '4875a80bfc55d3fb4f28a335753422747dd5b7b0'
   version '1'
 
   depends_on 'pvrtextool-2.09.29.0678-mac'
