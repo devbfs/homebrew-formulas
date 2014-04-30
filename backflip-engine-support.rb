@@ -1,10 +1,10 @@
 require 'formula'
 
-class BackflipBrewTools < Formula
+class BackflipEngineSupport < Formula
   url 'http://brew.backflipstudios.com/brew/backflip-engine-support.tar.gz'
-  sha1 ''
+  sha1 '9733c66dbe1b7a71f43d3af55696acaac9e6b844'
   version '1'
-  
+
   depends_on 'pvrtextool-2.09.29.0678-mac'
   depends_on 'imagemagick-6.8.0-mac'
   depends_on 'protobuf-2.4.1-all'
@@ -15,6 +15,5 @@ class BackflipBrewTools < Formula
 
   def install
     prefix.install Dir['*']
-    bin.install Dir['*']
   end
 end
