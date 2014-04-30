@@ -7,6 +7,7 @@ class BackflipBrewTools < Formula
   version '3'
 
   def install
+    prefix.install Dir['*']
     bin.install Dir['*']
   end
 end
