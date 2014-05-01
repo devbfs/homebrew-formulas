@@ -13,6 +13,7 @@ class BackflipEngineSupport < Formula
   depends_on 'lua-1.0-all'
   depends_on 'fontforge-20120731BFS-all'
   depends_on 'granny3dpreprocessor-1.0-mac'
+  depends_on 'sparsehash-1.10-all'
 
   def install
     prefix.install Dir['*']
