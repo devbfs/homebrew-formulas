@@ -3,7 +3,7 @@ require 'formula'
 
 class BackflipBrewTools < Formula
   url 'http://brew.backflipstudios.com/brew/backflip-brew-tools.tar.gz'
-  sha1 '51cea63c3bbe3624611cbe6da1a5ce53f046a088'
+  sha1 'c88820e737dd5c6c9cc581612b23b871caf57fb7'
   version '9'
 
   def install
