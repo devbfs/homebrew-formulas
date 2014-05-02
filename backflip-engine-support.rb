@@ -3,8 +3,8 @@ require 'formula'
 class BackflipEngineSupport < Formula
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/backflip-engine-support.tar.gz'
-  sha1 '8ca8890d9726348a5c84805ec24885a35e3efd40'
-  version '1'
+  sha1 '1b08c3c903429312877d182270def82071a5adde'
+  version '2'
 
   depends_on 'pvrtextool-2.09.29.0678-mac'
   depends_on 'imagemagick-6.8.0-mac'
