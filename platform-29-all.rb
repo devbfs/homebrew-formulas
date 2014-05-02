@@ -1,6 +1,6 @@
 require 'formula'
 
-class Platform28All < Formula
+class Platform29All < Formula
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/platform-29-all.tar.gz'
   sha1 '266eaad441e3780c75b8953e98e5e7c0fe86d967'
