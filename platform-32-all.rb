@@ -3,7 +3,7 @@ require 'formula'
 
 class Platform32All < Formula
   url 'http://brew.backflipstudios.com/brew/platform-32-all.tar.gz'
-  sha1 'fdf7e764d3c5975af7a8d7e01ae4d7f0ae7a54be'
+  sha1 'a78e451115cce11d49777101c046c67ee6f9cd6e'
   version '32'
 
   
