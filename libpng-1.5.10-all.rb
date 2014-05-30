@@ -2,6 +2,7 @@
 require 'formula'
 
 class Libpng1510All < Formula
+  keg_only 'Anything that needs this will know where to find it.'
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/libpng-1.5.10-all.tar.gz'
   sha1 '40237a667b3ea9484672a32cc05ab18fa45af489'
