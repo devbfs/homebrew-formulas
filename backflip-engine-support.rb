@@ -4,7 +4,7 @@ class BackflipEngineSupport < Formula
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/backflip-engine-support.tar.gz'
   sha1 '1b08c3c903429312877d182270def82071a5adde'
-  version '3'
+  version '4'
 
   depends_on 'pvrtextool-4.6-mac'
   depends_on 'imagemagick-6.8.0-mac'
