@@ -6,7 +6,7 @@ class BackflipEngineSupport < Formula
   sha1 '1b08c3c903429312877d182270def82071a5adde'
   version '3'
 
-  depends_on 'pvrtextool-4.6-mac''
+  depends_on 'pvrtextool-4.6-mac'
   depends_on 'imagemagick-6.8.0-mac'
   depends_on 'protobuf-2.4.1-all'
   depends_on 'havok-2012.1-all'
