@@ -4,9 +4,9 @@ class BackflipEngineSupport < Formula
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/backflip-engine-support.tar.gz'
   sha1 '1b08c3c903429312877d182270def82071a5adde'
-  version '2'
+  version '3'
 
-  depends_on 'pvrtextool-2.09.29.0678-mac'
+  depends_on 'pvrtextool-4.6-mac''
   depends_on 'imagemagick-6.8.0-mac'
   depends_on 'protobuf-2.4.1-all'
   depends_on 'havok-2012.1-all'
