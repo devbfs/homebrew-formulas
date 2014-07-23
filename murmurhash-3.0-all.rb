@@ -1,9 +1,11 @@
 require 'formula'
 
 class Murmurhash30All < Formula
-  homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/murmurhash-3.0-all.tar.gz'
-  sha1 '5acd5edc0c0a57551e8d24f90955c78cb8478b7e'
+  sha1 '5322e7809939b91226d640745710b13b75b59db6'
+  version '1'
+  keg_only 'Anything that needs this will know where to look'
+  homepage 'http://brew.backflipstudios.com'
 
   def install
     prefix.install Dir['*']

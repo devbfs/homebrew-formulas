@@ -1,9 +1,11 @@
 require 'formula'
 
 class Hockeyapp354Ios < Formula
-  homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/hockeyapp-3.5.4-ios.tar.gz'
-  sha1 '1fc28bffa0043d1c7379741de3afbebced381739'
+  sha1 'de9fa4a310f04eea6176313423e21b0050f5e76c'
+  version '1'
+  keg_only 'Anything that needs this will know where to look'
+  homepage 'http://brew.backflipstudios.com'
 
   def install
     prefix.install Dir['*']

@@ -1,11 +1,12 @@
 require 'formula'
 
 class Lua10All < Formula
-  keg_only 'This is an in-house keg. Anything that needs it should be able to find it automatically.'
 
-  homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/lua-1.0-all.tar.gz'
-  sha1 '04e8e18975b86295bf6584696c544477bf063223'
+  sha1 'dbefa2748c262ef540176e2a5d59da5ef51e0129'
+  version '1'
+  keg_only 'Anything that needs this will know where to look'
+  homepage 'http://brew.backflipstudios.com'
 
   def install
     prefix.install Dir['*']

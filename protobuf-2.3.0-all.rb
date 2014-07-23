@@ -1,9 +1,11 @@
 require 'formula'
 
 class Protobuf230All < Formula
-  homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/protobuf-2.3.0-all.tar.gz'
-  sha1 'e129b36779ea9b7d599a698f61e565249659b279'
+  sha1 'eb797a46187c9cdd42b8736839ee304411bca450'
+  version '1'
+  keg_only 'Anything that needs this will know where to look'
+  homepage 'http://brew.backflipstudios.com'
 
   def install
     prefix.install Dir['*']

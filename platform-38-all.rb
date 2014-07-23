@@ -3,8 +3,10 @@ require 'formula'
 
 class Platform38All < Formula
   url 'http://brew.backflipstudios.com/brew/platform-38-all.tar.gz'
-  sha1 'f15863db8f79eec09392082d5aa6feb4b048d00d'
-  version '38'
+  sha1 '78c079a3a3f78fe5763d76d73b3399d093032b6f'
+  version '1'
+  keg_only 'Anything that needs this will know where to look'
+  homepage 'http://brew.backflipstudios.com'
 
   
 

@@ -2,11 +2,12 @@
 require 'formula'
 
 class Ffmpeg121Mac < Formula
-  keg_only 'Anything that needs this will know where to look.'
 
   url 'http://brew.backflipstudios.com/brew/ffmpeg-1.2.1-mac.tar.gz'
-  sha1 '23185b641bb25e56560c98423ec44b938dbf697d'
-  version '1.2.1'
+  sha1 'c1322b87ce4f4d179054cfafe4e9de83dc2bafe1'
+  version '1'
+  keg_only 'Anything that needs this will know where to look'
+  homepage 'http://brew.backflipstudios.com'
 
   def install
     prefix.install Dir['*']

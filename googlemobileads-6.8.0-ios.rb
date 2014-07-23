@@ -1,9 +1,11 @@
 require 'formula'
 
 class Googlemobileads680Ios < Formula
-  homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/googlemobileads-6.8.0-ios.tar.gz'
-  sha1 '752ec1dc2751db9f59ba57df98e6df18439c9003'
+  sha1 'b4613f405c3ebd9963967ca5bc7cf2d2fc985847'
+  version '1'
+  keg_only 'Anything that needs this will know where to look'
+  homepage 'http://brew.backflipstudios.com'
 
   def install
     prefix.install Dir['*']

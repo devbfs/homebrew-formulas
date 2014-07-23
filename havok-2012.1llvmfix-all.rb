@@ -1,9 +1,11 @@
 require 'formula'
 
 class Havok20121llvmfixAll < Formula
-  homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/havok-2012.1llvmfix-all.tar.gz'
-  sha1 '861860df7c149b0b3a9db13dbd533c21faeae939'
+  sha1 'c93f6262ae3503ee8701ff544e6be3c8b1e1c17d'
+  version '1'
+  keg_only 'Anything that needs this will know where to look'
+  homepage 'http://brew.backflipstudios.com'
 
   def install
     prefix.install Dir['*']

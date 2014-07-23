@@ -1,9 +1,11 @@
 require 'formula'
 
 class Platform30All < Formula
-  homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/platform-30-all.tar.gz'
-  sha1 '2821cddc939e62a3554278017ad051295c8a577f'
+  sha1 'd6daeca802e2209cf6327a418215f36e177e7666'
+  version '1'
+  keg_only 'Anything that needs this will know where to look'
+  homepage 'http://brew.backflipstudios.com'
 
   depends_on 'boost-1.54.0-all'
   depends_on 'hockeyapp-3.5.4-ios'

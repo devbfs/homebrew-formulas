@@ -1,9 +1,11 @@
 require 'formula'
 
 class Sbjson304All < Formula
-  homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/sbjson-3.0.4-all.tar.gz'
-  sha1 'f39f0e15ffeb8ab52110a1a7125ec3cfa1678994'
+  sha1 '9fe091814fbbb0e525edf039f5f6b77196655a1a'
+  version '1'
+  keg_only 'Anything that needs this will know where to look'
+  homepage 'http://brew.backflipstudios.com'
 
   def install
     prefix.install Dir['*']

@@ -1,9 +1,11 @@
 require 'formula'
 
 class AngleprojectR1050All < Formula
-  homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/angleproject-r1050-all.tar.gz'
-  sha1 '09b4fec1005ed0307fc6d0895dbe4b642bfac3a1'
+  sha1 '6757ef0d3a50db2da1f815b4446cd146cc59f1f1'
+  version '1'
+  keg_only 'Anything that needs this will know where to look'
+  homepage 'http://brew.backflipstudios.com'
 
   def install
     prefix.install Dir['*']
