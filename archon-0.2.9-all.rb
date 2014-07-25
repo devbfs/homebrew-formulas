@@ -8,6 +8,8 @@ class Archon029All < Formula
   keg_only 'Anything that needs this will know where to look'
   homepage 'http://brew.backflipstudios.com'
 
+  depends_on 'whefs-r338-all'
+
   def install
     prefix.install Dir['*']
   end
