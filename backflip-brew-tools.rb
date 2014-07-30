@@ -3,9 +3,9 @@ require 'formula'
 
 class BackflipBrewTools < Formula
   url 'http://brew.backflipstudios.com/brew/backflip-brew-tools.tar.gz'
-  sha1 'c9396a589f25d2285dde6e1afb6139ce163077f5'
+  sha1 '50384aab69c12bd876cfc9743171bad33d241d85'
   
-  version '25'
+  version '26'
 
   def install
     prefix.install Dir['*']
