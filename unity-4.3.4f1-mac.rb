@@ -11,6 +11,6 @@ class Unity434f1Mac < Formula
     prefix.install Dir['*']
     puts 'You will need to manually create a symlink fgor this keg since modifying /Applications requires root permissions.'
     puts 'Assuming there is no existing regular (non-brew) installation of Unity, use this command:'
-    puts 'ln -s -f /usr/local/Cellar/unity-4.3.4f1-mac/4.3.4f1/Unity.app /Applications/Unity.app'
+    puts 'ln -s -f /usr/local/opt/unity-4.3.4f1-mac /Applications/Unity'
   end
 end
