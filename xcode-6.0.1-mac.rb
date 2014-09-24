@@ -5,13 +5,13 @@ class Xcode601Mac < Formula
 
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/xcode-6.0.1-mac.tar.gz'
-  sha1 'f0a6d30c89af752403871c75de37751bd5bdd844'
-  version '1'
+  sha1 'd56490a0fb353ad4a2722902a4bfab526a42839e'
+  version '2'
 
   def install
     prefix.install Dir['*']
     puts 'You will need to manually create a symlink for this keg since modifying /Applications requires root permissions.'
     puts 'Assuming you do not have a regular (non-brew) installation of Xcode, use this command:'
-    puts 'ln -s -f /usr/local/Cellar/xcode-6.0.1-mac/1/Xcode.app /Applications/Xcode.app'
+    puts 'ln -s -f /usr/local/Cellar/xcode-6.0.1-mac/2/Xcode.app /Applications/Xcode.app'
   end
 end
