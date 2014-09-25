@@ -9,9 +9,10 @@ class Xcode601Mac < Formula
   version '4'
 
   def install
+    system "hdiutil", "detach", "-quiet", "-force", "/Volumes/Xcode"
     system "hdiutil", "attach", "-nobrowse", "xcode_6.0.1.dmg"
     system "cp", "-R", "/Volumes/Xcode/Xcode.app", "#{prefix}/Xcode.app"
-    system "hdiutil detach -force /Volumes/Xcode"
+    system "hdiutil", "detach", "-force", "/Volumes/Xcode"
 
     puts 'You will need to manually create a symlink for this keg since modifying /Applications requires root permissions.'
     puts 'Assuming you do not have a regular (non-brew) installation of Xcode, use this command:'
