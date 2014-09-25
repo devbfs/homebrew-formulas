@@ -9,9 +9,7 @@ class Xcode601Mac < Formula
   version '4'
 
   def install
-    # prefix.install Dir['*']
-
-    system "hdiutil", "attach", "xcode_6.0.1.dmg"
+    system "hdiutil", "attach", "-nobrowse", "xcode_6.0.1.dmg"
     system "cp", "-R", "/Volumes/Xcode/Xcode.app", "#{prefix}/Xcode.app"
     system "hdiutil detach -force /Volumes/Xcode"
 
