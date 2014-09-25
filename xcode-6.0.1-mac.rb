@@ -12,7 +12,7 @@ class Xcode601Mac < Formula
     # prefix.install Dir['*']
 
     system "hdiutil", "attach", "xcode_6.0.1.dmg"
-    system "cp", "-R", "/Volumes/Xcode.app", "#{prefix}/Xcode.app"
+    system "cp", "-R", "/Volumes/Xcode/Xcode.app", "#{prefix}/Xcode.app"
     system "hdiutil detach -force /Volumes/Xcode"
 
     puts 'You will need to manually create a symlink for this keg since modifying /Applications requires root permissions.'
