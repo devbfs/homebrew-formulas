@@ -5,11 +5,16 @@ class Xcode601Mac < Formula
 
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/xcode-6.0.1-mac.tar.gz'
-  sha1 '636bb30341dbe001b858d11b662add627ea370c3'
-  version '3'
+  sha1 'e082cae0e67b116d36578cb0f34bb72d0b249f6c'
+  version '4'
 
   def install
-    prefix.install Dir['*']
+    # prefix.install Dir['*']
+
+    system "hdiutil", "attach", "xcode_6.0.1.dmg"
+    system "cp", "-R", "/Volumes/Xcode.app", "#{prefix}/Xcode.app"
+    system "hdiutil detach -force /Volumes/Xcode"
+
     puts 'You will need to manually create a symlink for this keg since modifying /Applications requires root permissions.'
     puts 'Assuming you do not have a regular (non-brew) installation of Xcode, use this command:'
     puts 'ln -s -f /usr/local/opt/xcode-6.0.1-mac/Xcode.app /Applications/Xcode.app'
