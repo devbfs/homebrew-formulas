@@ -9,7 +9,6 @@ class Xcode601Mac < Formula
   version '4'
 
   def install
-    system "hdiutil", "detach", "-quiet", "-force", "/Volumes/Xcode"
     system "hdiutil", "attach", "-nobrowse", "xcode_6.0.1.dmg"
     system "cp", "-R", "/Volumes/Xcode/Xcode.app", "#{prefix}/Xcode.app"
     system "hdiutil", "detach", "-force", "/Volumes/Xcode"
