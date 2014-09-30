@@ -3,7 +3,7 @@ require 'formula'
 class Xcode502Mac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
-  xc_version = '5.0.2'
+  @xc_version = '5.0.2'
 
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/xcode-#{xc_version}-mac.tar.gz'
