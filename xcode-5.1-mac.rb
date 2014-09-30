@@ -16,4 +16,5 @@ class Xcode51Mac < Formula
     puts 'You will need to manually create a symlink for this keg since modifying /Applications requires root permissions.'
     puts 'Assuming you do not have a regular (non-brew) installation of Xcode, use this command:'
     puts 'ln -s -f /usr/local/opt/xcode-5.1-mac/Xcode.app /Applications/Xcode.app'
+  end
 end
