@@ -9,12 +9,18 @@ class Xcode511Mac < Formula
   version '1'
 
   def install
-    system "hdiutil", "attach", "-nobrowse", "xcode_5.1.1.dmg"
-    system "cp", "-R", "/Volumes/Xcode/Xcode.app", "#{prefix}/Xcode.app"
+    prefix.install Dir['*']
+  end
+
+  def post_install
+    xc_version = "5.1.1"
+
+    system "hdiutil", "attach", "-nobrowse", "/usr/local/opt/xcode-#{xc_version}-mac/xcode_#{xc_version}.dmg"
+    system "cp", "-R", "/Volumes/Xcode/Xcode.app", "/usr/local/opt/xcode-#{xc_version}-mac/Xcode.app"
     system "hdiutil", "detach", "-force", "/Volumes/Xcode"
 
-    puts 'You will need to manually create a symlink for this keg since modifying /Applications requires root permissions.'
-    puts 'Assuming you do not have a regular (non-brew) installation of Xcode, use this command:'
-    puts 'ln -s -f /usr/local/opt/xcode-5.1.1-mac/Xcode.app /Applications/Xcode.app'
+    puts "You will need to manually create a symlink for this keg since modifying /Applications requires root permissions."
+    puts "Assuming you do not have a regular (non-brew) installation of Xcode, use this command:"
+    puts "ln -s -f /usr/local/opt/xcode-#{xc_version}-mac/Xcode.app /Applications/Xcode.app"
   end
 end
