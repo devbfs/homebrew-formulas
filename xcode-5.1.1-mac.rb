@@ -6,7 +6,7 @@ class Xcode511Mac < Formula
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/xcode-5.1.1-mac.tar.gz'
   sha1 'a817ee2fc29d67ced949c7ecfe13b6cca28931bd'
-  version '1'
+  version '2'
 
   def install
     prefix.install Dir['*']
