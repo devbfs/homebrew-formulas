@@ -4,7 +4,7 @@ class Unity453f3Mac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
   url 'http://brew.backflipstudios.com/brew/unity-4.5.3f3-mac.tar.gz'
-  sha1 '0781a6eb4c56cb3ea7236132f1b69e8d404560c9;
+  sha1 '0781a6eb4c56cb3ea7236132f1b69e8d404560c9'
   version '1'
 
   def install
