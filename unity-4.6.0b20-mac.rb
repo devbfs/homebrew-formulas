@@ -4,8 +4,8 @@ class Unity460b20Mac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
   url 'http://brew.backflipstudios.com/brew/unity-4.6.0b20-mac.tar.gz'
-  sha1 '1720935da1eec05367d85823d25619efcd4f76c6'
-  version '3'
+  sha1 '209e0c01c4be3a4f4a3ae4d141b05c92e92cb66b'
+  version '4'
 
   def install
     prefix.install Dir['*']
