@@ -3,11 +3,10 @@ require 'formula'
 
 class BfFontrendering1All < Formula
   url 'http://brew.backflipstudios.com/brew/bf_fontrendering-1-all.tar.gz'
-  sha1 'd7a454995f137738b839ec679ae41a54ae4f3eb4'
-  version '1'
-  keg_only 'Anything that needs this will know where to look'
-  homepage 'http://brew.backflipstudios.com'
+  sha1 'cac91b6e58d77f2d1855e6613c183df112002532'
+  version '2'
 
+  
 
   def install
     prefix.install Dir['*']
