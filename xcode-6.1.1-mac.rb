@@ -5,8 +5,8 @@ class Xcode611Mac < Formula
 
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/xcode-6.1.1-mac.tar.gz'
-  sha1 'd03ee00976fa86dbb27e6edaba4008db86e3bd60'
-  version '1'
+  sha1 'a12ff135b185243a7f98e044e21b769ff71c9b68'
+  version '2'
 
   def install
     xcode_version = "6.1.1"
