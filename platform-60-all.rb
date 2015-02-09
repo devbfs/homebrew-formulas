@@ -3,8 +3,8 @@ require 'formula'
 
 class Platform60All < Formula
   url 'http://brew.backflipstudios.com/brew/platform-60-all.tar.gz'
-  sha1 '8c96af45b45c8ab508e1dfd4aa191d624e27f633'
-  version '1'
+  sha1 '81c60b94333dfaf559b7a7d2746a1f0b8ed3e73d'
+  version '2'
 
   
 
