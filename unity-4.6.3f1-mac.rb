@@ -3,7 +3,7 @@ require 'formula'
 class Unity463f1Mac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
-  url 'http://brew.backflipstudios.com/brew/unity-4.6.3p1-mac.tar.gz'
+  url 'http://brew.backflipstudios.com/brew/unity-4.6.3f1-mac.tar.gz'
   sha1 'fad170c3b5c6b5113b993108efdd6f037795cd90'
   version '1'
 
@@ -12,7 +12,7 @@ class Unity463f1Mac < Formula
   end
 
   def post_install
-    unity_version = "4.6.3p1"
+    unity_version = "4.6.3f1"
 
     system "hdiutil", "attach", "-nobrowse", "/usr/local/opt/unity-#{unity_version}-mac/unity-#{unity_version}.dmg"
     system "cp", "-R", "/Volumes/unity-#{unity_version}/Unity", "/usr/local/opt/unity-#{unity_version}-mac/Unity"
