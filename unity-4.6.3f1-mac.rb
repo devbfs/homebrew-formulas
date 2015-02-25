@@ -1,6 +1,6 @@
 require 'formula'
 
-class Unity463p1Mac < Formula
+class Unity463f1Mac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
   url 'http://brew.backflipstudios.com/brew/unity-4.6.3p1-mac.tar.gz'
