@@ -4,7 +4,7 @@ class Unity501f1Mac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
   url 'http://brew.backflipstudios.com/brew/unity-5.0.1f1-mac.tar.gz'
-  sha1 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+  sha1 'c2dad74442372a62a52e45aa32750d278789df17'
   version '1'
 
   def install
