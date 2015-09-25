@@ -12,11 +12,9 @@ class Xcode7Mac < Formula
     xcode_version = "7"
 
     system "hdiutil", "attach", "-nobrowse", "xcode_#{xcode_version}.dmg"
-    system "rsync", "-a", "--exclude=Contents/Developer/Applications/Simulator*", "/Volumes/Xcode/Xcode.app", "#{prefix}/Xcode.app"
+    system "rsync", "-a", "--exclude=Contents/Developer/Applications/Simulator*", "/Volumes/Xcode/Xcode.app/*", "#{prefix}/Xcode.app"
     system "hdiutil", "detach", "-force", "/Volumes/Xcode"
 
-    puts 'You will need to manually create a symlink for this keg since modifying /Applications requires root permissions.'
-    puts 'Assuming you do not have a regular (non-brew) installation of Xcode, use this command:'
-    puts 'ln -s -f /usr/local/opt/xcode-#{xcode_version}-mac/Xcode.app /Applications/Xcode.app'
+    puts '⚠️DO NOT USE TO INSTALL XCODE ON ANYTHING BUT A BUILD AGENT⚠️'
   end
 end
