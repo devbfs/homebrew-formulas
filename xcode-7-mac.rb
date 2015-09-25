@@ -12,7 +12,7 @@ class Xcode7Mac < Formula
     xcode_version = "7"
 
     system "hdiutil", "attach", "-nobrowse", "xcode_#{xcode_version}.dmg"
-    system "cp", "-R", "/Volumes/Xcode/Xcode.app", "#{prefix}/Xcode.app"
+    system "rsync", "-a", "--exclude=Contents/Developer/Applications/Simulator*", "/Volumes/Xcode/Xcode.app", "#{prefix}/Xcode.app"
     system "hdiutil", "detach", "-force", "/Volumes/Xcode"
 
     puts 'You will need to manually create a symlink for this keg since modifying /Applications requires root permissions.'
