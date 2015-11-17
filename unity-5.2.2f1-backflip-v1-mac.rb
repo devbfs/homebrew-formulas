@@ -1,6 +1,6 @@
 require 'formula'
 
-class Unity522f1-backflip-v1Mac < Formula
+class Unity522f1BackflipV1Mac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
   url 'http://brew.backflipstudios.com/brew/unity-5.2.2f1-backflip-v1-mac.tar.gz'
