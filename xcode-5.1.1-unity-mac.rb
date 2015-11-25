@@ -5,7 +5,7 @@ class Xcode511UnityMac < Formula
 
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/xcode-5.1.1-unity-mac.tar.gz'
-  sha1 'a4f02444d6169980b24a5604f5c863c9e2eead56'
+  sha1 '1ab5dc52de79feda2d0daa92da5721c9c5917f82'
   version '1'
 
   def install
