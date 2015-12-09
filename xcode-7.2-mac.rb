@@ -1,6 +1,6 @@
 require 'formula'
 
-class Xcode7Mac < Formula
+class Xcode72Mac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
   homepage 'http://brew.backflipstudios.com'
