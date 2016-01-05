@@ -1,10 +1,10 @@
 require 'formula'
 
-class Unity523f1BfsMac < Formula
+class Unity523f1-bfsMac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
   url 'http://brew.backflipstudios.com/brew/unity-5.2.3f1-bfs-mac.tar.gz'
-  sha1 '8a6d6acf7cbea7f5856cbef3a90a17855e0d8d9b'
+  sha1 '31833fe1f4149fa55f60edf04b3196b33dbcb7e9'
   version '1'
 
   def install
