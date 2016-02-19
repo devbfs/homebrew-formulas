@@ -4,8 +4,8 @@ class Unity524f1BfsMac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
   url 'http://brew.backflipstudios.com/brew/unity-5.2.4f1-bfs-mac.tar.gz'
-  sha1 '538a1973a269486d2ba95b19ce8a46bce3cc0dab'
-  version '1'
+  sha1 '2ed429f2495e12e44ce014e9cf0ed84f5576f14e'
+  version '2'
 
   def install
     prefix.install Dir['*']
