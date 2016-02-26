@@ -4,8 +4,8 @@ class Unity533p1Mac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
   url 'http://brew.backflipstudios.com/brew/unity-5.3.3p1-mac.tar.gz'
-  sha1 '8c961318fc09f7848bfb34fe3027428a3dcff237'
-  version '1'
+  sha1 '696fc8529aebe2477d112242090e6a191f96f176'
+  version '2'
 
   def install
     prefix.install Dir['*']
