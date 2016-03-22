@@ -20,6 +20,7 @@ class Xcode73Mac < Formula
       "--exclude=Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/PrivateFrameworks/GPUToolsMobileKit.framework/Versions/A/GPUToolsMobileKit",
       "--exclude=Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCPlayground.framework/Versions/A/XCPlayground",
       "--exclude=Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator.sdk/System/Library/DataClassMigrators/MessagesDataMigrator.migrator/MessagesDataMigrator",
+      "--exclude=Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
       "/Volumes/Xcode/Xcode.app/", "#{prefix}/Xcode.app"
     system "hdiutil", "detach", "-force", "/Volumes/Xcode"
 
