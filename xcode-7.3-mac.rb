@@ -5,7 +5,7 @@ class Xcode73Mac < Formula
 
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/xcode-7.3-mac.tar.gz'
-  sha1 'aaa34602a71b60fc40a6e5d0d2b7647ff85ffa57ea28d01aa5d02286117c8d7c'
+  sha256 'aaa34602a71b60fc40a6e5d0d2b7647ff85ffa57ea28d01aa5d02286117c8d7c'
   version '1'
 
   def install
