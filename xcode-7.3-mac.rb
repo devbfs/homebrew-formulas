@@ -18,6 +18,7 @@ class Xcode73Mac < Formula
       "--exclude=Contents/Applications/Application*",
       "--exclude=Contents/Developer/Library/PrivateFrameworks/CoreSimulator.framework/Versions/A/CoreSimulator",
       "--exclude=Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/PrivateFrameworks/GPUToolsMobileKit.framework/Versions/A/GPUToolsMobileKit",
+      "--exclude=Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCPlayground.framework/Versions/A/XCPlayground",
       "/Volumes/Xcode/Xcode.app/", "#{prefix}/Xcode.app"
     system "hdiutil", "detach", "-force", "/Volumes/Xcode"
 
