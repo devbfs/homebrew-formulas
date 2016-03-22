@@ -12,7 +12,7 @@ class Xcode73Mac < Formula
     xcode_version = "7.3"
 
     system "hdiutil", "attach", "-nobrowse", "xcode_#{xcode_version}.dmg"
-    system "rsync", "-a", "--exclude=Contents/Developer/Applications/Simulator*", "--exclude=Contents/Developer/Platforms/AppleTVSimulator.platform", "--exclude=Contents/Applications/Application*", "/Volumes/Xcode/Xcode.app/", "#{prefix}/Xcode.app"
+    system "rsync", "-a", "--exclude=Contents/Developer/Applications/Simulator*", "--exclude=Contents/Developer/Platforms/AppleTVSimulator.platform", "--exclude=Contents/Applications/Application*", "--exclude=Contents/Developer/Library/PrivateFrameworks/CoreSimulator.framework/Versions/A/CoreSimulator", "/Volumes/Xcode/Xcode.app/", "#{prefix}/Xcode.app"
     system "hdiutil", "detach", "-force", "/Volumes/Xcode"
 
     puts '⚠️DO NOT USE TO INSTALL XCODE ON ANYTHING BUT A BUILD AGENT⚠️'
