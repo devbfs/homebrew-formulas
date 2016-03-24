@@ -4,7 +4,7 @@ class Unity534f1HashfixMac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
   url 'http://brew.backflipstudios.com/brew/unity-5.3.4f1-hashfix-mac.tar.gz'
-  sha1 'dcd290ebed2d285578b51bb26a56a9e7249dd1e94d12cfe098f76a8bed4aca17'
+  sha256 'dcd290ebed2d285578b51bb26a56a9e7249dd1e94d12cfe098f76a8bed4aca17'
   version '1'
 
   def install
