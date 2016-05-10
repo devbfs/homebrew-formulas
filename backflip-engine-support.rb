@@ -3,8 +3,8 @@ require 'formula'
 class BackflipEngineSupport < Formula
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/backflip-engine-support.tar.gz'
-  sha1 '1b08c3c903429312877d182270def82071a5adde'
-  version '4'
+  sha256 '4f6a8aae944fe0d5b7abe16a03f65111af1e0d01617332c4072a3602eab74122'
+  version '5'
 
   depends_on 'pvrtextool-4.6-mac'
   depends_on 'imagemagick-6.8.0-mac'
@@ -15,8 +15,4 @@ class BackflipEngineSupport < Formula
   depends_on 'granny3dpreprocessor-1.0-mac'
   depends_on 'sparsehash-1.10-all'
   depends_on 'eigen-3.2.0-all'
-
-  def install
-    prefix.install Dir['*']
-  end
 end
