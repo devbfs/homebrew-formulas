@@ -3,7 +3,7 @@ require 'formula'
 class BackflipEngineSupport < Formula
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/backflip-engine-support.tar.gz'
-  sha256 'b408d9e6c15d69870714cb8c79615c644b203ca951568a16e44085784aa1e700'
+  sha256 'a97c0a90e2498c28cf301d3bb5da92ef6160e57e4dab2e29e6b78b3c048973d7'
   version '6'
   keg_only 'This keg installs dependencies only.'
 
