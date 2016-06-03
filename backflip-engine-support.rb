@@ -3,8 +3,8 @@ require 'formula'
 class BackflipEngineSupport < Formula
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/backflip-engine-support.tar.gz'
-  sha256 'a97c0a90e2498c28cf301d3bb5da92ef6160e57e4dab2e29e6b78b3c048973d7'
-  version '6'
+  sha256 '783d0adf2602ec457564c142f16a16e89b4c0870cbf95dd70112667ba3d57198'
+  version '7'
   keg_only 'This keg installs dependencies only.'
 
   depends_on 'pvrtextool-4.6-mac'
