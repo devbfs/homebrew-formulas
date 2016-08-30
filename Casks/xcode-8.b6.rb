@@ -1,6 +1,6 @@
 cask 'xcode-8.b6' do
   version '1'
-  sha256 '43cd4e7fb5a6e669f30f715f1af9dec672828a864e86f229a074b4220a30d63d'
+  sha256 '969b8d57ef09cb2c61d9013f7fac2a817069e783f261d845c16103836e23a1f3'
 
   url "http://brew.backflipstudios.com/brew/Xcode_8.b6.dmg"
   name 'Xcode 8.b6'
