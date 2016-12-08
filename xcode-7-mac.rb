@@ -5,7 +5,7 @@ class Xcode7Mac < Formula
 
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/xcode-7-mac.tar.gz'
-  sha1 '0b1b4dc84d649e003229c7ccf7b663c7c3298fcd'
+  sha256 '0744cc4dcc9723eb83a766312b1d22c8e295b4625f0d0831a38c7854797a16aa'
   version '1'
 
   def install

@@ -5,7 +5,7 @@ class Xcode72Mac < Formula
 
   homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/xcode-7.2-mac.tar.gz'
-  sha1 '260218d62b0db6b5c2ebaa63ae1f2b4b8d86dfa3'
+  sha256 'd49fe352953f017cb86364e5e4f7e89aa796a0377f55fdc9971d4d022a7e63e7'
   version '1'
 
   def install
