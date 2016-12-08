@@ -1,11 +1,11 @@
 require 'formula'
 
 class Fmod44431Ios < Formula
+  homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/fmod-4.44.31-ios.tar.gz'
-  sha1 '54a82539c086915f202293b91aee641cc42a8273'
+  sha1 'cc187d4feb73b4d866d1889eac3d1d3e57a3edb4fc44a833728a4490b6739803'
   version '1'
   keg_only 'Anything that needs this will know where to look'
-  homepage 'http://brew.backflipstudios.com'
 
   def install
     prefix.install Dir['*']

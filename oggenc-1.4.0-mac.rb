@@ -1,13 +1,11 @@
-
 require 'formula'
 
 class Oggenc140Mac < Formula
-
+  homepage 'http://brew.backflipstudios.com'
   url 'http://brew.backflipstudios.com/brew/oggenc-1.4.0-mac.tar.gz'
-  sha1 'dec414b75ea59863f7b681dac84fbe3691d15a05'
+  sha256 '54d66564f71fed5dd5741174f8aab658a89687e2b9ce531bb3835faa383cc78b'
   version '1'
   keg_only 'Anything that needs this will know where to look'
-  homepage 'http://brew.backflipstudios.com'
 
   def install
     prefix.install Dir['*']
