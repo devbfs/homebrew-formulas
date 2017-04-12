@@ -1,4 +1,4 @@
-cask 'xcode-821' do
+cask 'xcode-8.2.1' do
   version '1'
   sha256 'bdaa76ec732291f9d49b274325bc179188f47fd2824841b8e6d35fee651836ac'
 
@@ -7,5 +7,5 @@ cask 'xcode-821' do
   homepage 'http://brew.backflipstudios.com/'
   license :closed
 
-  app 'Xcode.app'
+  app 'Xcode_8.2.1.app'
 end
