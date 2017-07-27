@@ -7,8 +7,7 @@ cask 'androidndk-15b-android' do
   name 'Android NDK'
   homepage 'https://developer.android.com/ndk/index.html'
 
-  conflicts_with cask: 'android-ndk'
-  conflicts_with cask: 'crystax-ndk'
+  conflicts_with cask: ['android-ndk', 'crystax-ndk']
 
   linked_path = "#{HOMEBREW_PREFIX}/share/androidndk-#{version}-android"
 
