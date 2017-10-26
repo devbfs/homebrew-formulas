@@ -4,7 +4,7 @@ class Unity201712f1Mac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
   url 'http://brew.backflipstudios.com/brew/unity-2017.1.2f1-mac.tar.gz'
-  sha256 '69fb613ac1d81d6689efee991e1a7ac9618ab63ae3741a4b70744dac68c928b9'
+  sha256 'f4426fc515200bdb6b4eca067d82968b3843f95ac56f3bbb4f6c77bfdeafc839'
   version '1'
 
   def install
