@@ -15,7 +15,7 @@ class Unity201712f1Mac < Formula
     unity_version = "2017.1.2f1"
 
     system "hdiutil", "attach", "-nobrowse", "/usr/local/opt/unity-#{unity_version}-mac/unity-#{unity_version}.dmg"
-    system "cp", "-R", "/Volumes/unity-#{unity_version}/Unity", "/usr/local/opt/unity-#{unity_version}-mac/Unity"
+    system "cp", "-R", "/Volumes/unity-#{unity_version}", "/usr/local/opt/unity-#{unity_version}-mac/Unity"
     system "hdiutil", "detach", "-force", "/Volumes/unity-#{unity_version}"
 
     puts "You will need to manually create a symlink for this keg since modifying /Applications requires root permissions."
