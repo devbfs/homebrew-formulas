@@ -16,7 +16,7 @@ cask 'androidndk-13b-android' do
   preflight do
     FileUtils.ln_sf("#{staged_path}/android-ndk-r#{version}", linked_path)
 
-    IO.write shimscript, <<-EOS.undent
+    IO.write shimscript, <<~EOS
       #!/bin/bash
       readonly executable="#{staged_path}/android-ndk-r#{version}/$(basename ${0})"
       test -f "${executable}" && exec "${executable}" "${@}"
@@ -35,7 +35,7 @@ cask 'androidndk-13b-android' do
     FileUtils.rm(linked_path)
   end
 
-  caveats <<-EOS.undent
+  caveats <<~EOS
    You may want to add to your profile:
       'export ANDROID_NDK_HOME="#{linked_path}"'
   EOS
