@@ -5,7 +5,6 @@ cask 'xcode-8' do
   url "http://brew.backflipstudios.com/brew/Xcode_8.dmg"
   name 'Xcode 8'
   homepage 'http://brew.backflipstudios.com/'
-  license :closed
 
   app 'Xcode_8.app'
 end
