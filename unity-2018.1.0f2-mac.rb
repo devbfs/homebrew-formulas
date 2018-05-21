@@ -4,8 +4,8 @@ class Unity201810f2Mac < Formula
   keg_only 'No linking is necessary. Anything that needs to use this will know where to find it.'
 
   url 'http://brew.backflipstudios.com/brew/unity-2018.1.0f2-mac.tar.gz'
-  sha256 '6200564508367fe43b7442c1c6884f1a1cc3695d23278a78560eba141b871722'
-  version '1'
+  sha256 'ea7ff3a88d07326d081edae4b0d686c7fd12ba9969e390a4d8dca8a5caa62d35'
+  version '2'
 
   def install
     prefix.install Dir['*']
