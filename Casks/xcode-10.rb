@@ -3,7 +3,7 @@ cask 'xcode-10' do
     version :latest
     sha256 :no_check
 
-    url "http://brew.backflipstudios.com/brew/Xcode_#{xcode_version}.xip"
+    url "http://brew.backflipstudios.com/brew/Xcode_#{xcode_version}.zip"
     name "Xcode #{xcode_version}"
     homepage 'http://brew.backflipstudios.com/'
 
