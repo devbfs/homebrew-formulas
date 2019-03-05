@@ -1,7 +1,7 @@
 cask 'xcode-10.1' do
     xcode_version = '10.1'
     version :latest
-    sha256 '550b0a3a3bf31b9ef2fba1d8039e5adc87d3f6f43393bb8df8f070ebc7077e6f'
+    sha256 '043619017321ba8cba211dc31f1fc8781838fb4f676d833f9f1ae2057d82cc57'
 
     url "http://brew.backflipstudios.com/brew/Xcode_#{xcode_version}.zip"
     name "Xcode #{xcode_version}"
